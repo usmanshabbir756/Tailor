@@ -1,0 +1,11 @@
+C:\Users\usman\Desktop\Tailor\Tailor\TailorManagment\bin\Debug\TailorManagment.exe.config
+C:\Users\usman\Desktop\Tailor\Tailor\TailorManagment\bin\Debug\TailorManagment.exe
+C:\Users\usman\Desktop\Tailor\Tailor\TailorManagment\bin\Debug\TailorManagment.pdb
+C:\Users\usman\Desktop\Tailor\Tailor\TailorManagment\obj\Debug\TailorManagment.csproj.AssemblyReference.cache
+C:\Users\usman\Desktop\Tailor\Tailor\TailorManagment\obj\Debug\TailorManagment.Form1.resources
+C:\Users\usman\Desktop\Tailor\Tailor\TailorManagment\obj\Debug\TailorManagment.Properties.Resources.resources
+C:\Users\usman\Desktop\Tailor\Tailor\TailorManagment\obj\Debug\TailorManagment.csproj.GenerateResource.cache
+C:\Users\usman\Desktop\Tailor\Tailor\TailorManagment\obj\Debug\TailorManagment.csproj.CoreCompileInputs.cache
+C:\Users\usman\Desktop\Tailor\Tailor\TailorManagment\obj\Debug\TailorManagment.exe
+C:\Users\usman\Desktop\Tailor\Tailor\TailorManagment\obj\Debug\TailorManagment.pdb
+C:\Users\usman\Desktop\Tailor\Tailor\TailorManagment\obj\Debug\TailorManagment.Forms.Menu.resources
