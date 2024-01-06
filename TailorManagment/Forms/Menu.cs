@@ -28,12 +28,22 @@ namespace TailorManagment.Forms
             th.Start();
         }
 
+       
+
+        private void excustomer(object sender, EventArgs e)
+        {
+            this.Close();
+            th = new Thread(openexeCustomer);
+            th.SetApartmentState(ApartmentState.STA);
+            th.Start();
+        }
         private void openCustomer()
         {
-            Application.Run(new Customer());
+            Application.Run(new CustomerForm());
         }
-
-
-
+        private void openexeCustomer()
+        {
+            Application.Run(new ExistingCustomer());
+        }
     }
 }

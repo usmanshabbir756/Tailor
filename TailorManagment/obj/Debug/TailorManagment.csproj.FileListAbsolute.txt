@@ -9,3 +9,12 @@ C:\Users\usman\Desktop\Tailor\Tailor\TailorManagment\obj\Debug\TailorManagment.c
 C:\Users\usman\Desktop\Tailor\Tailor\TailorManagment\obj\Debug\TailorManagment.exe
 C:\Users\usman\Desktop\Tailor\Tailor\TailorManagment\obj\Debug\TailorManagment.pdb
 C:\Users\usman\Desktop\Tailor\Tailor\TailorManagment\obj\Debug\TailorManagment.Forms.Menu.resources
+C:\Users\usman\Desktop\Tailor\Tailor\TailorManagment\bin\Debug\BAL.dll
+C:\Users\usman\Desktop\Tailor\Tailor\TailorManagment\bin\Debug\BEL.dll
+C:\Users\usman\Desktop\Tailor\Tailor\TailorManagment\bin\Debug\BAL.pdb
+C:\Users\usman\Desktop\Tailor\Tailor\TailorManagment\bin\Debug\BEL.pdb
+C:\Users\usman\Desktop\Tailor\Tailor\TailorManagment\obj\Debug\TailorManagment.csproj.CopyComplete
+C:\Users\usman\Desktop\Tailor\Tailor\TailorManagment\obj\Debug\TailorManagment.Forms.CustomerForm.resources
+C:\Users\usman\Desktop\Tailor\Tailor\TailorManagment\bin\Debug\DAL.dll
+C:\Users\usman\Desktop\Tailor\Tailor\TailorManagment\bin\Debug\DAL.pdb
+C:\Users\usman\Desktop\Tailor\Tailor\TailorManagment\obj\Debug\TailorManagment.Forms.SizeForm.resources

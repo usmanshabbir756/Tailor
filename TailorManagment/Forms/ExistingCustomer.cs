@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace TailorManagment.Forms
 {
-    public partial class Customer : Form
+    public partial class ExistingCustomer : Form
     {
-        public Customer()
+        public ExistingCustomer()
         {
             InitializeComponent();
+        }
+
+        private void addCustomer_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
