@@ -18,3 +18,8 @@ C:\Users\usman\Desktop\Tailor\Tailor\TailorManagment\obj\Debug\TailorManagment.F
 C:\Users\usman\Desktop\Tailor\Tailor\TailorManagment\bin\Debug\DAL.dll
 C:\Users\usman\Desktop\Tailor\Tailor\TailorManagment\bin\Debug\DAL.pdb
 C:\Users\usman\Desktop\Tailor\Tailor\TailorManagment\obj\Debug\TailorManagment.Forms.SizeForm.resources
+C:\Users\usman\Desktop\Tailor\Tailor\TailorManagment\obj\Debug\TailorManagment.Forms.ExistingCustomer.resources
+C:\Users\usman\Desktop\Tailor\Tailor\TailorManagment\obj\Debug\TailorManagment.Forms.NewOrder.resources
+C:\Users\usman\Desktop\Tailor\Tailor\TailorManagment\obj\Debug\TailorManagment.Forms.Order.resources
+C:\Users\usman\Desktop\Tailor\Tailor\TailorManagment\obj\Debug\TailorManagment.Forms.Record.resources
+C:\Users\usman\Desktop\Tailor\Tailor\TailorManagment\obj\Debug\TailorManagment.Forms.SizeUpdate.resources
