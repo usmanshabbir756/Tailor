@@ -11,23 +11,26 @@ using BEL;
 
 namespace TailorManagment.Forms
 {
-    public partial class SizeForm : Form
+    public partial class SizeForm1 : UserControl
     {
-        public Customer customer;
-        public SizeForm(Customer customer)
+        Customer customer=new Customer();
+        Size size= new Size();
+        public SizeForm1(Customer customer)
         {
             InitializeComponent();
             this.customer = customer;
         }
 
-        private void SizeForm_Load(object sender, EventArgs e)
+        
+
+        private void SizeForm1_Load(object sender, EventArgs e)
         {
-            txtid.Text=customer.CustomerId.ToString();
+            txtid.Text = customer.CustomerId.ToString();
         }
 
-        private void button4_Click(object sender, EventArgs e)
+        private void button2_Click(object sender, EventArgs e)
         {
-            new formChange(this, new Menu());
+            
         }
     }
 }

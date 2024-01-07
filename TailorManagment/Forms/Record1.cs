@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace TailorManagment.Forms
 {
-    public partial class SizeUpdate : Form
+    public partial class Record1 : UserControl
     {
-        public SizeUpdate()
+        public Record1()
         {
             InitializeComponent();
-        }
-
-        private void button4_Click(object sender, EventArgs e)
-        {
-            new formChange(this, new Menu());
         }
     }
 }

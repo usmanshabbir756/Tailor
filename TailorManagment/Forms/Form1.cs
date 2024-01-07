@@ -15,7 +15,6 @@ namespace TailorManagment
 {
     public partial class Form1 : Form
     {
-        Thread th;
         public Form1()
         {
             InitializeComponent();

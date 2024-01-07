@@ -53,29 +53,17 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="formChange.cs" />
-    <Compile Include="Forms\CustomerForm.cs">
-      <SubType>Form</SubType>
+    <Compile Include="Forms\ExistingCustomer1.cs">
+      <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Forms\CustomerForm.Designer.cs">
-      <DependentUpon>CustomerForm.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Forms\ExistingCustomer.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\ExistingCustomer.Designer.cs">
-      <DependentUpon>ExistingCustomer.cs</DependentUpon>
+    <Compile Include="Forms\ExistingCustomer1.Designer.cs">
+      <DependentUpon>ExistingCustomer1.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Forms\Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Forms\Menu.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Forms\Menu.Designer.cs">
-      <DependentUpon>Menu.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\MenuForm.cs">
       <SubType>Form</SubType>
@@ -89,49 +77,43 @@
     <Compile Include="Forms\NewCustomer1.Designer.cs">
       <DependentUpon>NewCustomer1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\NewOrder.cs">
-      <SubType>Form</SubType>
+    <Compile Include="Forms\NewOrder1.cs">
+      <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Forms\NewOrder.Designer.cs">
-      <DependentUpon>NewOrder.cs</DependentUpon>
+    <Compile Include="Forms\NewOrder1.Designer.cs">
+      <DependentUpon>NewOrder1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Order.cs">
-      <SubType>Form</SubType>
+    <Compile Include="Forms\Order1.cs">
+      <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Forms\Order.Designer.cs">
-      <DependentUpon>Order.cs</DependentUpon>
+    <Compile Include="Forms\Order1.Designer.cs">
+      <DependentUpon>Order1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Record.cs">
-      <SubType>Form</SubType>
+    <Compile Include="Forms\Record1.cs">
+      <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Forms\Record.Designer.cs">
-      <DependentUpon>Record.cs</DependentUpon>
+    <Compile Include="Forms\Record1.Designer.cs">
+      <DependentUpon>Record1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\SizeForm.cs">
-      <SubType>Form</SubType>
+    <Compile Include="Forms\SizeForm1.cs">
+      <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Forms\SizeForm.Designer.cs">
-      <DependentUpon>SizeForm.cs</DependentUpon>
+    <Compile Include="Forms\SizeForm1.Designer.cs">
+      <DependentUpon>SizeForm1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\SizeUpdate.cs">
-      <SubType>Form</SubType>
+    <Compile Include="Forms\SizeUpdate1.cs">
+      <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Forms\SizeUpdate.Designer.cs">
-      <DependentUpon>SizeUpdate.cs</DependentUpon>
+    <Compile Include="Forms\SizeUpdate1.Designer.cs">
+      <DependentUpon>SizeUpdate1.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Forms\CustomerForm.resx">
-      <DependentUpon>CustomerForm.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Forms\ExistingCustomer.resx">
-      <DependentUpon>ExistingCustomer.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\ExistingCustomer1.resx">
+      <DependentUpon>ExistingCustomer1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Menu.resx">
-      <DependentUpon>Menu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\MenuForm.resx">
       <DependentUpon>MenuForm.cs</DependentUpon>
@@ -139,20 +121,20 @@
     <EmbeddedResource Include="Forms\NewCustomer1.resx">
       <DependentUpon>NewCustomer1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\NewOrder.resx">
-      <DependentUpon>NewOrder.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\NewOrder1.resx">
+      <DependentUpon>NewOrder1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Order.resx">
-      <DependentUpon>Order.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\Order1.resx">
+      <DependentUpon>Order1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\Record.resx">
-      <DependentUpon>Record.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\Record1.resx">
+      <DependentUpon>Record1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\SizeForm.resx">
-      <DependentUpon>SizeForm.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\SizeForm1.resx">
+      <DependentUpon>SizeForm1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\SizeUpdate.resx">
-      <DependentUpon>SizeUpdate.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\SizeUpdate1.resx">
+      <DependentUpon>SizeUpdate1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

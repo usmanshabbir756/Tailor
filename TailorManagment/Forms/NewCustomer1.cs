@@ -8,7 +8,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using BEL;
 using BAL;
 using System.Threading;
 
@@ -23,7 +22,7 @@ namespace TailorManagment.Forms
         {
             InitializeComponent();
         }
-
+        
         private void addCustomer_Click(object sender, EventArgs e)
         {
             try
@@ -38,7 +37,9 @@ namespace TailorManagment.Forms
                     MessageBox.Show("Added");
                     dt = opr.GetIdByNamePhoneNo(customer);
                     customer.CustomerId = Int32.Parse(dt.Rows[0][0].ToString());
-                    //new formChange(this, new SizeForm(customer));
+                    SizeForm1 nc = new SizeForm1(customer);
+                    this.Controls.Clear();
+                    this.Controls.Add(nc);
                 }
                 else
                 {

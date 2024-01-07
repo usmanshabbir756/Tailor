@@ -28,5 +28,40 @@ namespace TailorManagment.Forms
             NewCustomer1 nc = new NewCustomer1();
             addUserControl(nc);
         }
+
+        private void ExistingCustomer(object sender, EventArgs e)
+        {
+            ExistingCustomer1 nc = new ExistingCustomer1(); 
+            addUserControl(nc);
+        }
+
+        private void SizeUpdate(object sender, EventArgs e)
+        {
+            SizeUpdate1 nc= new SizeUpdate1();
+            addUserControl(nc);
+        }
+
+        private void neworder(object sender, EventArgs e)
+        {
+            NewOrder1 nc = new NewOrder1();
+            addUserControl(nc);
+        }
+
+        private void order(object sender, EventArgs e)
+        {
+            Order1 nc = new Order1();
+            addUserControl(nc);
+        }
+
+        private void Record(object sender, EventArgs e)
+        {
+            Record1 nc = new Record1();
+            addUserControl(nc);
+        }
+
+        private void Exit(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

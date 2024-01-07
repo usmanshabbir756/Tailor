@@ -29,5 +29,14 @@ namespace BAL
             cmd.Parameters.Add("@phone_number", SqlDbType.VarChar, 20).Value = customer.phoneNumber;
             return db.ExeReader(cmd);
         }
+
+        public DataTable GetIdByID(int id)
+        {
+            SqlCommand cmd = new SqlCommand("GetCustomerByID");
+            cmd.CommandType = CommandType.StoredProcedure;
+            cmd.Parameters.Add("@customer_id", SqlDbType.VarChar, 255).Value = id;
+            return db.ExeReader(cmd);
+        }
+
     }
 }
