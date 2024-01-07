@@ -9,3 +9,14 @@ C:\Users\usman\Desktop\Tailor\Tailor\BAL\obj\Debug\BAL.csproj.CoreCompileInputs.
 C:\Users\usman\Desktop\Tailor\Tailor\BAL\obj\Debug\BAL.csproj.CopyComplete
 C:\Users\usman\Desktop\Tailor\Tailor\BAL\obj\Debug\BAL.dll
 C:\Users\usman\Desktop\Tailor\Tailor\BAL\obj\Debug\BAL.pdb
+F:\5th Semester\SCD\Project\TMS1\BAL\bin\Debug\BAL.dll
+F:\5th Semester\SCD\Project\TMS1\BAL\bin\Debug\BAL.pdb
+F:\5th Semester\SCD\Project\TMS1\BAL\bin\Debug\BEL.dll
+F:\5th Semester\SCD\Project\TMS1\BAL\bin\Debug\DAL.dll
+F:\5th Semester\SCD\Project\TMS1\BAL\bin\Debug\BEL.pdb
+F:\5th Semester\SCD\Project\TMS1\BAL\bin\Debug\DAL.pdb
+F:\5th Semester\SCD\Project\TMS1\BAL\obj\Debug\BAL.csproj.AssemblyReference.cache
+F:\5th Semester\SCD\Project\TMS1\BAL\obj\Debug\BAL.csproj.CoreCompileInputs.cache
+F:\5th Semester\SCD\Project\TMS1\BAL\obj\Debug\BAL.csproj.CopyComplete
+F:\5th Semester\SCD\Project\TMS1\BAL\obj\Debug\BAL.dll
+F:\5th Semester\SCD\Project\TMS1\BAL\obj\Debug\BAL.pdb

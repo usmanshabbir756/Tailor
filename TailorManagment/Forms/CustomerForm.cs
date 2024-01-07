@@ -11,6 +11,7 @@ using BEL;
 using BAL;
 using System.Threading;
 using TailorManagment.Forms;
+using static System.Net.Mime.MediaTypeNames;
 
 namespace TailorManagment.Forms
 {
@@ -39,10 +40,7 @@ namespace TailorManagment.Forms
                     MessageBox.Show("Added");
                     dt = opr.GetIdByNamePhoneNo(customer);
                     customer.CustomerId = Int32.Parse(dt.Rows[0][0].ToString());
-                    this.Close();
-                    th = new Thread(openSize);
-                    th.SetApartmentState(ApartmentState.STA);
-                    th.Start();
+                    new formChange(this, new SizeForm(customer));
                 }
                 else
                 {
@@ -55,10 +53,13 @@ namespace TailorManagment.Forms
                 MessageBox.Show(ex.Message);
             }
         }
-        private void openSize()
+        
+
+        private void button1_Click(object sender, EventArgs e)
         {
-            Application.Run(new SizeForm(customer));
+            new formChange(this, new Menu());
         }
+
     }
 }
 

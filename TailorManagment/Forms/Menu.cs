@@ -22,28 +22,29 @@ namespace TailorManagment.Forms
 
         private void button1_Click(object sender, EventArgs e)
         {
-            this.Close();
-            th = new Thread(openCustomer);
-            th.SetApartmentState(ApartmentState.STA);
-            th.Start();
+            new formChange(this, new CustomerForm());
+
         }
-
-       
-
         private void excustomer(object sender, EventArgs e)
         {
-            this.Close();
-            th = new Thread(openexeCustomer);
-            th.SetApartmentState(ApartmentState.STA);
-            th.Start();
+            new formChange(this, new ExistingCustomer());
         }
-        private void openCustomer()
+        private void Neworder(object sender, EventArgs e)
         {
-            Application.Run(new CustomerForm());
+            new formChange(this, new NewOrder());
         }
-        private void openexeCustomer()
+        private void Record(object sender, EventArgs e)
         {
-            Application.Run(new ExistingCustomer());
+            new formChange(this, new Record());
         }
+            private void SizeUpdate(object sender, EventArgs e)
+        {
+            new formChange(this, new SizeUpdate());
+        }
+        private void Order(object sender, EventArgs e)
+        {
+            new formChange(this, new Order());
+        }
+       
     }
 }

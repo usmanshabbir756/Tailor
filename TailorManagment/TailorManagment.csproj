@@ -33,8 +33,14 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261, processorArchitecture=MSIL">
+      <HintPath>packages\Guna.UI2.WinForms.2.0.4.6\lib\net48\Guna.UI2.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Web" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -46,6 +52,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="formChange.cs" />
     <Compile Include="Forms\CustomerForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -69,6 +76,18 @@
     </Compile>
     <Compile Include="Forms\Menu.Designer.cs">
       <DependentUpon>Menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\MenuForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\MenuForm.Designer.cs">
+      <DependentUpon>MenuForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\NewCustomer1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\NewCustomer1.Designer.cs">
+      <DependentUpon>NewCustomer1.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\NewOrder.cs">
       <SubType>Form</SubType>
@@ -114,6 +133,12 @@
     <EmbeddedResource Include="Forms\Menu.resx">
       <DependentUpon>Menu.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\MenuForm.resx">
+      <DependentUpon>MenuForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\NewCustomer1.resx">
+      <DependentUpon>NewCustomer1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\NewOrder.resx">
       <DependentUpon>NewOrder.cs</DependentUpon>
     </EmbeddedResource>
@@ -138,6 +163,7 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

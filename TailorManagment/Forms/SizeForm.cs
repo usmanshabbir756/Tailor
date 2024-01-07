@@ -24,5 +24,10 @@ namespace TailorManagment.Forms
         {
             txtid.Text=customer.CustomerId.ToString();
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            new formChange(this, new Menu());
+        }
     }
 }

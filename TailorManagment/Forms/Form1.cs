@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using TailorManagment.Forms;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace TailorManagment
@@ -29,10 +30,7 @@ namespace TailorManagment
         {
             if (txtusername.Text == "UsmanShabbir" && txtpassword.Text == "Usman")
             {
-                this.Close();
-                th = new Thread(openMenu);
-                th.SetApartmentState(ApartmentState.STA);
-                th.Start();
+                new formChange(this, new MenuForm());
             }
             else if (txtusername.Text == "UsmanShabbir")
             {
@@ -46,10 +44,6 @@ namespace TailorManagment
             {
                 loginerror.Text = "Enter Wrong User Name and Password";
             }
-        }
-        private void openMenu()
-        {
-            Application.Run(new Forms.Menu());
         }
 
         private void txtusername_KeyPress(object sender, KeyPressEventArgs e)

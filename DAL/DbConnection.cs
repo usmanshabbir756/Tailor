@@ -10,7 +10,7 @@ namespace DAL
 {
     public class DbConnection
     {
-            public SqlConnection Conn = new SqlConnection("Data Source=USMAN_SHABBIR;Initial Catalog=TailorManagmentSystem;Integrated Security=True;");
+            public SqlConnection Conn = new SqlConnection("Data Source=DESKTOP-QI6H2EA;Initial Catalog=TailorManagmentSystem;Integrated Security=True;");
 
             public SqlConnection GetCon()
             {

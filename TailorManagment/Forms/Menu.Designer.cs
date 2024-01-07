@@ -64,7 +64,7 @@
             this.button3.TabIndex = 0;
             this.button3.Text = "New Order";
             this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button1_Click);
+            this.button3.Click += new System.EventHandler(this.Neworder);
             // 
             // button4
             // 
@@ -74,7 +74,7 @@
             this.button4.TabIndex = 0;
             this.button4.Text = "Record";
             this.button4.UseVisualStyleBackColor = true;
-            this.button4.Click += new System.EventHandler(this.button1_Click);
+            this.button4.Click += new System.EventHandler(this.Record);
             // 
             // button5
             // 
@@ -84,7 +84,7 @@
             this.button5.TabIndex = 0;
             this.button5.Text = "Size update";
             this.button5.UseVisualStyleBackColor = true;
-            this.button5.Click += new System.EventHandler(this.button1_Click);
+            this.button5.Click += new System.EventHandler(this.SizeUpdate);
             // 
             // button6
             // 
@@ -94,13 +94,13 @@
             this.button6.TabIndex = 0;
             this.button6.Text = "Order";
             this.button6.UseVisualStyleBackColor = true;
-            this.button6.Click += new System.EventHandler(this.button1_Click);
+            this.button6.Click += new System.EventHandler(this.Order);
             // 
             // Menu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(568, 459);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button6);
             this.Controls.Add(this.button5);

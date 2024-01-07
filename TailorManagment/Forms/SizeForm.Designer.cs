@@ -58,6 +58,7 @@
             this.textBox7 = new System.Windows.Forms.TextBox();
             this.textBox13 = new System.Windows.Forms.TextBox();
             this.textBox14 = new System.Windows.Forms.TextBox();
+            this.button4 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -328,11 +329,22 @@
             this.textBox14.Size = new System.Drawing.Size(202, 26);
             this.textBox14.TabIndex = 5;
             // 
+            // button4
+            // 
+            this.button4.Location = new System.Drawing.Point(24, 12);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(99, 23);
+            this.button4.TabIndex = 30;
+            this.button4.Text = "Back to Menu";
+            this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
+            // 
             // SizeForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.button4);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.label12);
             this.Controls.Add(this.label6);
@@ -403,5 +415,6 @@
         private System.Windows.Forms.TextBox textBox7;
         private System.Windows.Forms.TextBox textBox13;
         private System.Windows.Forms.TextBox textBox14;
+        private System.Windows.Forms.Button button4;
     }
 }
