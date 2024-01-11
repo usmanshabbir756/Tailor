@@ -100,6 +100,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txtpassword);
             this.Controls.Add(this.txtusername);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Form1";
             this.Text = "Password";
             this.ResumeLayout(false);

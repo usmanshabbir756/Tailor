@@ -41,18 +41,18 @@
             this.label13 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
-            this.textBox12 = new System.Windows.Forms.TextBox();
-            this.textBox11 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox10 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox9 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.textBox13 = new System.Windows.Forms.TextBox();
-            this.textBox14 = new System.Windows.Forms.TextBox();
+            this.txtwrist = new System.Windows.Forms.TextBox();
+            this.txtrundneck = new System.Windows.Forms.TextBox();
+            this.txtskirtlength = new System.Windows.Forms.TextBox();
+            this.txtroundarms = new System.Windows.Forms.TextBox();
+            this.txtunderbust = new System.Windows.Forms.TextBox();
+            this.txtsleeves = new System.Windows.Forms.TextBox();
+            this.txthalflength = new System.Windows.Forms.TextBox();
+            this.txtdresslength = new System.Windows.Forms.TextBox();
+            this.txtthigh = new System.Windows.Forms.TextBox();
+            this.txtrouserlength = new System.Windows.Forms.TextBox();
+            this.txtwaist = new System.Windows.Forms.TextBox();
+            this.txtshoulder = new System.Windows.Forms.TextBox();
             this.txtid = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
@@ -114,9 +114,9 @@
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.Location = new System.Drawing.Point(362, 252);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(103, 20);
+            this.label10.Size = new System.Drawing.Size(98, 20);
             this.label10.TabIndex = 54;
-            this.label10.Text = "Round Arrms";
+            this.label10.Text = "Round Arms";
             // 
             // label4
             // 
@@ -188,101 +188,101 @@
             this.label15.TabIndex = 48;
             this.label15.Text = "Shoulder";
             // 
-            // textBox12
+            // txtwrist
             // 
-            this.textBox12.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox12.Location = new System.Drawing.Point(490, 341);
-            this.textBox12.Name = "textBox12";
-            this.textBox12.Size = new System.Drawing.Size(202, 26);
-            this.textBox12.TabIndex = 46;
+            this.txtwrist.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtwrist.Location = new System.Drawing.Point(490, 341);
+            this.txtwrist.Name = "txtwrist";
+            this.txtwrist.Size = new System.Drawing.Size(202, 26);
+            this.txtwrist.TabIndex = 46;
             // 
-            // textBox11
+            // txtrundneck
             // 
-            this.textBox11.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox11.Location = new System.Drawing.Point(490, 296);
-            this.textBox11.Name = "textBox11";
-            this.textBox11.Size = new System.Drawing.Size(202, 26);
-            this.textBox11.TabIndex = 45;
+            this.txtrundneck.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtrundneck.Location = new System.Drawing.Point(490, 296);
+            this.txtrundneck.Name = "txtrundneck";
+            this.txtrundneck.Size = new System.Drawing.Size(202, 26);
+            this.txtrundneck.TabIndex = 45;
             // 
-            // textBox6
+            // txtskirtlength
             // 
-            this.textBox6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox6.Location = new System.Drawing.Point(132, 341);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(202, 26);
-            this.textBox6.TabIndex = 44;
+            this.txtskirtlength.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtskirtlength.Location = new System.Drawing.Point(132, 341);
+            this.txtskirtlength.Name = "txtskirtlength";
+            this.txtskirtlength.Size = new System.Drawing.Size(202, 26);
+            this.txtskirtlength.TabIndex = 44;
             // 
-            // textBox10
+            // txtroundarms
             // 
-            this.textBox10.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox10.Location = new System.Drawing.Point(490, 249);
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(202, 26);
-            this.textBox10.TabIndex = 43;
+            this.txtroundarms.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtroundarms.Location = new System.Drawing.Point(490, 249);
+            this.txtroundarms.Name = "txtroundarms";
+            this.txtroundarms.Size = new System.Drawing.Size(202, 26);
+            this.txtroundarms.TabIndex = 43;
             // 
-            // textBox5
+            // txtunderbust
             // 
-            this.textBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox5.Location = new System.Drawing.Point(132, 296);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(202, 26);
-            this.textBox5.TabIndex = 42;
+            this.txtunderbust.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtunderbust.Location = new System.Drawing.Point(132, 296);
+            this.txtunderbust.Name = "txtunderbust";
+            this.txtunderbust.Size = new System.Drawing.Size(202, 26);
+            this.txtunderbust.TabIndex = 42;
             // 
-            // textBox9
+            // txtsleeves
             // 
-            this.textBox9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox9.Location = new System.Drawing.Point(490, 202);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(202, 26);
-            this.textBox9.TabIndex = 41;
+            this.txtsleeves.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtsleeves.Location = new System.Drawing.Point(490, 202);
+            this.txtsleeves.Name = "txtsleeves";
+            this.txtsleeves.Size = new System.Drawing.Size(202, 26);
+            this.txtsleeves.TabIndex = 41;
             // 
-            // textBox4
+            // txthalflength
             // 
-            this.textBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox4.Location = new System.Drawing.Point(132, 249);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(202, 26);
-            this.textBox4.TabIndex = 40;
+            this.txthalflength.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txthalflength.Location = new System.Drawing.Point(132, 249);
+            this.txthalflength.Name = "txthalflength";
+            this.txthalflength.Size = new System.Drawing.Size(202, 26);
+            this.txthalflength.TabIndex = 40;
             // 
-            // textBox8
+            // txtdresslength
             // 
-            this.textBox8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox8.Location = new System.Drawing.Point(490, 158);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(202, 26);
-            this.textBox8.TabIndex = 39;
+            this.txtdresslength.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtdresslength.Location = new System.Drawing.Point(490, 158);
+            this.txtdresslength.Name = "txtdresslength";
+            this.txtdresslength.Size = new System.Drawing.Size(202, 26);
+            this.txtdresslength.TabIndex = 39;
             // 
-            // textBox3
+            // txtthigh
             // 
-            this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.Location = new System.Drawing.Point(132, 202);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(202, 26);
-            this.textBox3.TabIndex = 38;
+            this.txtthigh.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtthigh.Location = new System.Drawing.Point(132, 202);
+            this.txtthigh.Name = "txtthigh";
+            this.txtthigh.Size = new System.Drawing.Size(202, 26);
+            this.txtthigh.TabIndex = 38;
             // 
-            // textBox7
+            // txtrouserlength
             // 
-            this.textBox7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox7.Location = new System.Drawing.Point(490, 116);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(202, 26);
-            this.textBox7.TabIndex = 37;
+            this.txtrouserlength.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtrouserlength.Location = new System.Drawing.Point(490, 116);
+            this.txtrouserlength.Name = "txtrouserlength";
+            this.txtrouserlength.Size = new System.Drawing.Size(202, 26);
+            this.txtrouserlength.TabIndex = 37;
             // 
-            // textBox13
+            // txtwaist
             // 
-            this.textBox13.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox13.Location = new System.Drawing.Point(132, 158);
-            this.textBox13.Name = "textBox13";
-            this.textBox13.Size = new System.Drawing.Size(202, 26);
-            this.textBox13.TabIndex = 47;
+            this.txtwaist.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtwaist.Location = new System.Drawing.Point(132, 158);
+            this.txtwaist.Name = "txtwaist";
+            this.txtwaist.Size = new System.Drawing.Size(202, 26);
+            this.txtwaist.TabIndex = 47;
             // 
-            // textBox14
+            // txtshoulder
             // 
-            this.textBox14.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox14.Location = new System.Drawing.Point(132, 116);
-            this.textBox14.Name = "textBox14";
-            this.textBox14.Size = new System.Drawing.Size(202, 26);
-            this.textBox14.TabIndex = 36;
+            this.txtshoulder.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtshoulder.Location = new System.Drawing.Point(132, 116);
+            this.txtshoulder.Name = "txtshoulder";
+            this.txtshoulder.Size = new System.Drawing.Size(202, 26);
+            this.txtshoulder.TabIndex = 36;
             // 
             // txtid
             // 
@@ -318,18 +318,18 @@
             this.Controls.Add(this.label13);
             this.Controls.Add(this.label14);
             this.Controls.Add(this.label15);
-            this.Controls.Add(this.textBox12);
-            this.Controls.Add(this.textBox11);
-            this.Controls.Add(this.textBox6);
-            this.Controls.Add(this.textBox10);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox9);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox8);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox7);
-            this.Controls.Add(this.textBox13);
-            this.Controls.Add(this.textBox14);
+            this.Controls.Add(this.txtwrist);
+            this.Controls.Add(this.txtrundneck);
+            this.Controls.Add(this.txtskirtlength);
+            this.Controls.Add(this.txtroundarms);
+            this.Controls.Add(this.txtunderbust);
+            this.Controls.Add(this.txtsleeves);
+            this.Controls.Add(this.txthalflength);
+            this.Controls.Add(this.txtdresslength);
+            this.Controls.Add(this.txtthigh);
+            this.Controls.Add(this.txtrouserlength);
+            this.Controls.Add(this.txtwaist);
+            this.Controls.Add(this.txtshoulder);
             this.Controls.Add(this.txtid);
             this.Controls.Add(this.label1);
             this.Name = "SizeForm1";
@@ -355,18 +355,18 @@
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.TextBox textBox12;
-        private System.Windows.Forms.TextBox textBox11;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.TextBox textBox10;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox9;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox8;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.TextBox textBox13;
-        private System.Windows.Forms.TextBox textBox14;
+        private System.Windows.Forms.TextBox txtwrist;
+        private System.Windows.Forms.TextBox txtrundneck;
+        private System.Windows.Forms.TextBox txtskirtlength;
+        private System.Windows.Forms.TextBox txtroundarms;
+        private System.Windows.Forms.TextBox txtunderbust;
+        private System.Windows.Forms.TextBox txtsleeves;
+        private System.Windows.Forms.TextBox txthalflength;
+        private System.Windows.Forms.TextBox txtdresslength;
+        private System.Windows.Forms.TextBox txtthigh;
+        private System.Windows.Forms.TextBox txtrouserlength;
+        private System.Windows.Forms.TextBox txtwaist;
+        private System.Windows.Forms.TextBox txtshoulder;
         private System.Windows.Forms.TextBox txtid;
         private System.Windows.Forms.Label label1;
     }

@@ -21,14 +21,14 @@ namespace DAL
 
                 return Conn;
             }
-
+            
 
 
             public int ExeNonQuery(SqlCommand cmd)
             {
                 cmd.Connection = GetCon();
                 int rowAffected = -1;
-                rowAffected = cmd.ExecuteNonQuery();
+                rowAffected = cmd.ExecuteNonQuery(); //==1
                 Conn.Close();
                 return rowAffected;
             }

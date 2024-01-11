@@ -16,6 +16,7 @@ namespace BAL
 
             SqlCommand cmd = new SqlCommand("InsertCustomer");
             cmd.CommandType = CommandType.StoredProcedure;
+            //parameter
             cmd.Parameters.Add("@cust_name", SqlDbType.VarChar, 255).Value = customer.name;
             cmd.Parameters.Add("@phone_number", SqlDbType.VarChar, 20).Value = customer.phoneNumber;
             cmd.Parameters.Add("@email", SqlDbType.VarChar, 255).Value = customer.email;

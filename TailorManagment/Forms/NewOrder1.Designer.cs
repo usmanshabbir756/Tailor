@@ -29,9 +29,9 @@
         private void InitializeComponent()
         {
             this.button1 = new System.Windows.Forms.Button();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.txtcategory = new System.Windows.Forms.ComboBox();
+            this.txtdeliverydate = new System.Windows.Forms.DateTimePicker();
+            this.txtorderdate = new System.Windows.Forms.DateTimePicker();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
@@ -39,10 +39,10 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtfullpayment = new System.Windows.Forms.TextBox();
+            this.txtadvancepayment = new System.Windows.Forms.TextBox();
+            this.txtpendingpayment = new System.Windows.Forms.TextBox();
+            this.txtcustomerid = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // button1
@@ -53,11 +53,12 @@
             this.button1.TabIndex = 26;
             this.button1.Text = "Add";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // comboBox1
+            // txtcategory
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
+            this.txtcategory.FormattingEnabled = true;
+            this.txtcategory.Items.AddRange(new object[] {
             "Pant Coat",
             "Coat",
             "Pant",
@@ -65,25 +66,25 @@
             "Waistcoat",
             "kurta",
             "pajama"});
-            this.comboBox1.Location = new System.Drawing.Point(261, 68);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(200, 21);
-            this.comboBox1.TabIndex = 25;
-            this.comboBox1.Text = "Category";
+            this.txtcategory.Location = new System.Drawing.Point(261, 68);
+            this.txtcategory.Name = "txtcategory";
+            this.txtcategory.Size = new System.Drawing.Size(200, 21);
+            this.txtcategory.TabIndex = 25;
+            this.txtcategory.Text = "Category";
             // 
-            // dateTimePicker2
+            // txtdeliverydate
             // 
-            this.dateTimePicker2.Location = new System.Drawing.Point(261, 156);
-            this.dateTimePicker2.Name = "dateTimePicker2";
-            this.dateTimePicker2.Size = new System.Drawing.Size(200, 20);
-            this.dateTimePicker2.TabIndex = 23;
+            this.txtdeliverydate.Location = new System.Drawing.Point(261, 156);
+            this.txtdeliverydate.Name = "txtdeliverydate";
+            this.txtdeliverydate.Size = new System.Drawing.Size(200, 20);
+            this.txtdeliverydate.TabIndex = 23;
             // 
-            // dateTimePicker1
+            // txtorderdate
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(261, 116);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(200, 20);
-            this.dateTimePicker1.TabIndex = 24;
+            this.txtorderdate.Location = new System.Drawing.Point(261, 116);
+            this.txtorderdate.Name = "txtorderdate";
+            this.txtorderdate.Size = new System.Drawing.Size(200, 20);
+            this.txtorderdate.TabIndex = 24;
             // 
             // label6
             // 
@@ -148,42 +149,42 @@
             this.label1.TabIndex = 22;
             this.label1.Text = "Customer ID";
             // 
-            // textBox3
+            // txtfullpayment
             // 
-            this.textBox3.Location = new System.Drawing.Point(261, 199);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(200, 20);
-            this.textBox3.TabIndex = 12;
+            this.txtfullpayment.Location = new System.Drawing.Point(261, 199);
+            this.txtfullpayment.Name = "txtfullpayment";
+            this.txtfullpayment.Size = new System.Drawing.Size(200, 20);
+            this.txtfullpayment.TabIndex = 12;
             // 
-            // textBox4
+            // txtadvancepayment
             // 
-            this.textBox4.Location = new System.Drawing.Point(261, 246);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(200, 20);
-            this.textBox4.TabIndex = 13;
+            this.txtadvancepayment.Location = new System.Drawing.Point(261, 246);
+            this.txtadvancepayment.Name = "txtadvancepayment";
+            this.txtadvancepayment.Size = new System.Drawing.Size(200, 20);
+            this.txtadvancepayment.TabIndex = 13;
             // 
-            // textBox2
+            // txtpendingpayment
             // 
-            this.textBox2.Location = new System.Drawing.Point(261, 285);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(200, 20);
-            this.textBox2.TabIndex = 14;
+            this.txtpendingpayment.Location = new System.Drawing.Point(261, 285);
+            this.txtpendingpayment.Name = "txtpendingpayment";
+            this.txtpendingpayment.Size = new System.Drawing.Size(200, 20);
+            this.txtpendingpayment.TabIndex = 14;
             // 
-            // textBox1
+            // txtcustomerid
             // 
-            this.textBox1.Location = new System.Drawing.Point(261, 28);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
-            this.textBox1.TabIndex = 15;
+            this.txtcustomerid.Location = new System.Drawing.Point(261, 28);
+            this.txtcustomerid.Name = "txtcustomerid";
+            this.txtcustomerid.Size = new System.Drawing.Size(100, 20);
+            this.txtcustomerid.TabIndex = 15;
             // 
             // NewOrder1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.comboBox1);
-            this.Controls.Add(this.dateTimePicker2);
-            this.Controls.Add(this.dateTimePicker1);
+            this.Controls.Add(this.txtcategory);
+            this.Controls.Add(this.txtdeliverydate);
+            this.Controls.Add(this.txtorderdate);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label5);
@@ -191,10 +192,10 @@
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtfullpayment);
+            this.Controls.Add(this.txtadvancepayment);
+            this.Controls.Add(this.txtpendingpayment);
+            this.Controls.Add(this.txtcustomerid);
             this.Name = "NewOrder1";
             this.Size = new System.Drawing.Size(612, 351);
             this.ResumeLayout(false);
@@ -204,9 +205,9 @@
 
         #endregion
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.DateTimePicker dateTimePicker2;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.ComboBox txtcategory;
+        private System.Windows.Forms.DateTimePicker txtdeliverydate;
+        private System.Windows.Forms.DateTimePicker txtorderdate;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label5;
@@ -214,9 +215,9 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtfullpayment;
+        private System.Windows.Forms.TextBox txtadvancepayment;
+        private System.Windows.Forms.TextBox txtpendingpayment;
+        private System.Windows.Forms.TextBox txtcustomerid;
     }
 }
