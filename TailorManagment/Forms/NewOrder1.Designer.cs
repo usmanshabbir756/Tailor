@@ -155,6 +155,7 @@
             this.txtfullpayment.Name = "txtfullpayment";
             this.txtfullpayment.Size = new System.Drawing.Size(200, 20);
             this.txtfullpayment.TabIndex = 12;
+            this.txtfullpayment.TextChanged += new System.EventHandler(this.txtfullpayment_TextChanged);
             // 
             // txtadvancepayment
             // 
@@ -162,6 +163,7 @@
             this.txtadvancepayment.Name = "txtadvancepayment";
             this.txtadvancepayment.Size = new System.Drawing.Size(200, 20);
             this.txtadvancepayment.TabIndex = 13;
+            this.txtadvancepayment.TextChanged += new System.EventHandler(this.txtadvancepayment_TextChanged);
             // 
             // txtpendingpayment
             // 
@@ -198,6 +200,7 @@
             this.Controls.Add(this.txtcustomerid);
             this.Name = "NewOrder1";
             this.Size = new System.Drawing.Size(612, 351);
+            this.Load += new System.EventHandler(this.NewOrder1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

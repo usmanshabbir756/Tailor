@@ -12,9 +12,9 @@ namespace BEL
         public int orderid { get; set; }
         public DateTime orderdate { get; set; }
         public DateTime delieverydate { get; set; }
-        public int fullpayment { get; set; }
-        public int advancepayment { get; set; }
-        public int pendingpayment { get; set; }
+        public decimal fullpayment { get; set; }
+        public decimal advancepayment { get; set; }
+        public decimal pendingpayment { get; set; }
         public string category { get; set; }
     }
 }

@@ -2,6 +2,7 @@
 using System.Data;
 using DAL;
 using BEL;
+using System;
 
 namespace BAL
 {
@@ -10,6 +11,12 @@ namespace BAL
         public DbConnection db = new DbConnection();
         public Customer customer = new Customer();
 
+        public DataTable GetAllRecord()
+        {
+            SqlCommand cmd = new SqlCommand("GetCustomerData");
+            cmd.CommandType = CommandType.StoredProcedure;
+            return db.ExeReader(cmd);
+        }
 
         public int inserCustomer(Customer customer)
         {
@@ -39,5 +46,23 @@ namespace BAL
             return db.ExeReader(cmd);
         }
 
+        public int updateCustomer(Customer customer)
+        {
+            SqlCommand cmd = new SqlCommand("UpdateCustomer");
+            cmd.CommandType = CommandType.StoredProcedure;
+            cmd.Parameters.Add("@customer_id", SqlDbType.Int).Value = customer.CustomerId;
+            cmd.Parameters.Add("@cust_name", SqlDbType.VarChar, 255).Value = customer.name;
+            cmd.Parameters.Add("@phone_number", SqlDbType.VarChar, 20).Value = customer.phoneNumber;
+            cmd.Parameters.Add("@email", SqlDbType.VarChar, 255).Value = customer.email;
+            return db.ExeNonQuery(cmd);
+        }
+
+        public int deleteCustomer(Customer customer)
+        {
+            SqlCommand cmd = new SqlCommand("DeleteCustomer");
+            cmd.CommandType = CommandType.StoredProcedure;
+            cmd.Parameters.Add("@customer_id", SqlDbType.Int).Value = customer.CustomerId;
+            return db.ExeNonQuery(cmd);
+        }
     }
 }

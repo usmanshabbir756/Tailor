@@ -48,7 +48,7 @@
             this.panelContainer.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelContainer.Location = new System.Drawing.Point(0, 100);
             this.panelContainer.Name = "panelContainer";
-            this.panelContainer.Size = new System.Drawing.Size(1115, 483);
+            this.panelContainer.Size = new System.Drawing.Size(1366, 668);
             this.panelContainer.TabIndex = 17;
             // 
             // guna2Button1
@@ -81,7 +81,7 @@
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel2.Location = new System.Drawing.Point(0, 50);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1115, 50);
+            this.panel2.Size = new System.Drawing.Size(1366, 50);
             this.panel2.TabIndex = 15;
             // 
             // guna2Button6
@@ -95,7 +95,7 @@
             this.guna2Button6.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(242)))), ((int)(((byte)(253)))));
             this.guna2Button6.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2Button6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(72)))), ((int)(((byte)(99)))));
-            this.guna2Button6.Location = new System.Drawing.Point(872, 6);
+            this.guna2Button6.Location = new System.Drawing.Point(978, 6);
             this.guna2Button6.Name = "guna2Button6";
             this.guna2Button6.Size = new System.Drawing.Size(114, 25);
             this.guna2Button6.TabIndex = 12;
@@ -113,7 +113,7 @@
             this.guna2Button5.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(242)))), ((int)(((byte)(253)))));
             this.guna2Button5.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2Button5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(72)))), ((int)(((byte)(99)))));
-            this.guna2Button5.Location = new System.Drawing.Point(752, 6);
+            this.guna2Button5.Location = new System.Drawing.Point(858, 6);
             this.guna2Button5.Name = "guna2Button5";
             this.guna2Button5.Size = new System.Drawing.Size(114, 25);
             this.guna2Button5.TabIndex = 12;
@@ -151,7 +151,7 @@
             this.guna2Button4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(72)))), ((int)(((byte)(99)))));
             this.guna2Button4.Location = new System.Drawing.Point(632, 6);
             this.guna2Button4.Name = "guna2Button4";
-            this.guna2Button4.Size = new System.Drawing.Size(114, 25);
+            this.guna2Button4.Size = new System.Drawing.Size(220, 25);
             this.guna2Button4.TabIndex = 12;
             this.guna2Button4.Text = "New Order";
             this.guna2Button4.Click += new System.EventHandler(this.neworder);
@@ -181,7 +181,7 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1115, 50);
+            this.panel1.Size = new System.Drawing.Size(1366, 50);
             this.panel1.TabIndex = 16;
             // 
             // guna2Button7
@@ -194,7 +194,7 @@
             this.guna2Button7.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(242)))), ((int)(((byte)(253)))));
             this.guna2Button7.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2Button7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(72)))), ((int)(((byte)(99)))));
-            this.guna2Button7.Location = new System.Drawing.Point(1025, 12);
+            this.guna2Button7.Location = new System.Drawing.Point(1276, 10);
             this.guna2Button7.Name = "guna2Button7";
             this.guna2Button7.Size = new System.Drawing.Size(78, 30);
             this.guna2Button7.TabIndex = 12;
@@ -205,7 +205,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1115, 583);
+            this.ClientSize = new System.Drawing.Size(1366, 768);
             this.Controls.Add(this.panelContainer);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);

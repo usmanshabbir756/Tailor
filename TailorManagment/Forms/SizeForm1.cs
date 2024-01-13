@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using BAL;
 using BEL;
 using static Guna.UI2.Native.WinApi;
 
@@ -16,6 +17,9 @@ namespace TailorManagment.Forms
     {
         Customer customer=new Customer();
         BEL.Size size=new BEL.Size();
+        SizeOperations sizeOperations=new SizeOperations();
+        DataTable dt= new DataTable();
+
         public SizeForm1(Customer customer)
         {
             InitializeComponent();
@@ -32,7 +36,6 @@ namespace TailorManagment.Forms
         private void button2_Click(object sender, EventArgs e)
         {
             size.customerId = customer.CustomerId;
-            size.sizeId=customer.CustomerId;
             size.roundarms = txtroundarms.Text;
             size.roundneck = txtrundneck.Text;
             size.Skirtlength=txtskirtlength.Text;
@@ -46,8 +49,22 @@ namespace TailorManagment.Forms
             size.Waist=txtwaist.Text;
             size.wrist=txtwrist.Text;
 
-
-
+            int a=sizeOperations.inserCustomerSize(size);
+            if(a>0)
+            {
+                MessageBox.Show("added size");
+                
+                NewOrder1 nc=new NewOrder1(size.customerId);
+                this.Controls.Clear();
+                this.Controls.Add(nc);
+            }
+            else
+            {
+                MessageBox.Show("not added size");
+                SizeForm1 nc = new SizeForm1(customer);
+                this.Controls.Clear();
+                this.Controls.Add(nc);
+            }
 
         }
     }

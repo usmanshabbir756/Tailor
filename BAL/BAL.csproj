@@ -42,7 +42,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Operations.cs" />
+    <Compile Include="OrderOperations.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SizeOperations.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\BEL\BEL.csproj">

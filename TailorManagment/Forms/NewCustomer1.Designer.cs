@@ -39,7 +39,7 @@
             // 
             // addCustomer
             // 
-            this.addCustomer.Location = new System.Drawing.Point(225, 313);
+            this.addCustomer.Location = new System.Drawing.Point(509, 369);
             this.addCustomer.Name = "addCustomer";
             this.addCustomer.Size = new System.Drawing.Size(75, 23);
             this.addCustomer.TabIndex = 10;
@@ -49,7 +49,7 @@
             // 
             // txtemail
             // 
-            this.txtemail.Location = new System.Drawing.Point(261, 225);
+            this.txtemail.Location = new System.Drawing.Point(545, 281);
             this.txtemail.Name = "txtemail";
             this.txtemail.Size = new System.Drawing.Size(100, 20);
             this.txtemail.TabIndex = 7;
@@ -57,7 +57,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(148, 225);
+            this.label3.Location = new System.Drawing.Point(432, 281);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(32, 13);
             this.label3.TabIndex = 4;
@@ -65,7 +65,7 @@
             // 
             // txtphoneno
             // 
-            this.txtphoneno.Location = new System.Drawing.Point(261, 164);
+            this.txtphoneno.Location = new System.Drawing.Point(545, 220);
             this.txtphoneno.Name = "txtphoneno";
             this.txtphoneno.Size = new System.Drawing.Size(100, 20);
             this.txtphoneno.TabIndex = 8;
@@ -73,7 +73,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(148, 164);
+            this.label2.Location = new System.Drawing.Point(432, 220);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(55, 13);
             this.label2.TabIndex = 5;
@@ -81,15 +81,18 @@
             // 
             // txtname
             // 
-            this.txtname.Location = new System.Drawing.Point(260, 108);
+            this.txtname.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
+            this.txtname.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.RecentlyUsedList;
+            this.txtname.Location = new System.Drawing.Point(544, 164);
             this.txtname.Name = "txtname";
             this.txtname.Size = new System.Drawing.Size(100, 20);
             this.txtname.TabIndex = 9;
+            this.txtname.UseSystemPasswordChar = true;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(147, 108);
+            this.label1.Location = new System.Drawing.Point(431, 164);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(35, 13);
             this.label1.TabIndex = 6;
@@ -107,13 +110,14 @@
             this.Controls.Add(this.txtname);
             this.Controls.Add(this.label1);
             this.Name = "NewCustomer1";
-            this.Size = new System.Drawing.Size(608, 514);
+            this.Size = new System.Drawing.Size(1366, 668);
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
+
         private System.Windows.Forms.Button addCustomer;
         private System.Windows.Forms.TextBox txtemail;
         private System.Windows.Forms.Label label3;

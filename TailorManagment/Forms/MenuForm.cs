@@ -14,6 +14,7 @@ namespace TailorManagment.Forms
     {
         public MenuForm()
         {
+            
             InitializeComponent();
         }
         private void addUserControl(UserControl userControl)

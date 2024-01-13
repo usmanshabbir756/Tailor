@@ -28,32 +28,33 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.Record = new System.Windows.Forms.DataGridView();
+            ((System.ComponentModel.ISupportInitialize)(this.Record)).BeginInit();
             this.SuspendLayout();
             // 
-            // dataGridView1
+            // Record
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(18, 78);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(681, 359);
-            this.dataGridView1.TabIndex = 1;
+            this.Record.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.Record.Location = new System.Drawing.Point(37, 13);
+            this.Record.Name = "Record";
+            this.Record.Size = new System.Drawing.Size(1300, 640);
+            this.Record.TabIndex = 1;
             // 
             // Record1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.Record);
             this.Name = "Record1";
-            this.Size = new System.Drawing.Size(734, 522);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            this.Size = new System.Drawing.Size(1366, 668);
+            this.Load += new System.EventHandler(this.Record1_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.Record)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView Record;
     }
 }
