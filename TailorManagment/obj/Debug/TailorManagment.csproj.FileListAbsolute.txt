@@ -78,3 +78,4 @@ C:\Users\usman\Source\Repos\Tailor\TailorManagment\obj\Debug\TailorManagment.csp
 C:\Users\usman\Source\Repos\Tailor\TailorManagment\obj\Debug\TailorManagment.csproj.CopyComplete
 C:\Users\usman\Source\Repos\Tailor\TailorManagment\obj\Debug\TailorManagment.exe
 C:\Users\usman\Source\Repos\Tailor\TailorManagment\obj\Debug\TailorManagment.pdb
+C:\Users\usman\source\repos\Tailor\TailorManagment\obj\Debug\TailorManagment.Forms.logo.resources

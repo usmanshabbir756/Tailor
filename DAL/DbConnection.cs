@@ -10,8 +10,14 @@ namespace DAL
 {
     public class DbConnection
     {
-            public SqlConnection Conn = new SqlConnection("Data Source=USMAN_SHABBIR;Initial Catalog=TailorManagmentSystem;Integrated Security=True;");
+        //Making sqlconnection by adding
+        //datasource  as server name
+        //AttachDbFilename give database name from debug folder of application
+        public SqlConnection Conn = new SqlConnection("Data Source=(localdb)\\MSSQLLocalDB;AttachDbFilename=" + System.IO.Path.GetFullPath("TailorManagmentSystem.mdf")+";Integrated Security=True;");
 
+
+        //making getcon function to get db connection
+        //and open it iif close
             public SqlConnection GetCon()
             {
                 if (Conn.State == ConnectionState.Closed)
@@ -21,10 +27,10 @@ namespace DAL
 
                 return Conn;
             }
-            
 
 
-            public int ExeNonQuery(SqlCommand cmd)
+        //Making function to run ExecuteNonQuery not return data query
+        public int ExeNonQuery(SqlCommand cmd)
             {
                 cmd.Connection = GetCon();
                 int rowAffected = -1;
@@ -33,22 +39,15 @@ namespace DAL
                 return rowAffected;
             }
 
-            public object ExeScalar(SqlCommand cmd)
-            {
-                cmd.Connection = GetCon();
-                object obj = -1;
-                obj = cmd.ExecuteScalar();
-                Conn.Close();
-                return obj;
-            }
 
-            public DataTable ExeReader(SqlCommand cmd)
+        //Making function to run ExecuteReader return data prom data base in data table
+        public DataTable ExeReader(SqlCommand cmd)
             {
                 cmd.Connection = GetCon();
                 SqlDataReader sdr;
                 DataTable dt = new DataTable();
-                sdr = cmd.ExecuteReader();
-                dt.Load(sdr);
+                sdr = cmd.ExecuteReader(); //data that read  sqldatareader
+                dt.Load(sdr); //enter data in datatable and send back
                 return dt;
             }
 

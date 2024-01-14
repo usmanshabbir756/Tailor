@@ -28,17 +28,29 @@ namespace TailorManagment.Forms
             txtcustomerid.Text = customerId.ToString();
             InitializeComponent();
         }
+       
 
-        private void button1_Click(object sender, EventArgs e)
+        private void NewOrder1_Load(object sender, EventArgs e)
         {
+            if(customerId > 0)
+            {
+                txtcustomerid.Text = customerId.ToString();
+            }
             
+        }
+
+
+
+
+        private void guna2Button3_Click(object sender, EventArgs e)
+        {
             order.customerid = int.Parse(txtcustomerid.Text);
             order.category = txtcategory.Text;
             order.orderdate = txtorderdate.Value;
             order.delieverydate = txtdeliverydate.Value;
-            order.fullpayment=decimal.Parse(txtfullpayment.Text);
-            order.advancepayment=decimal.Parse(txtadvancepayment.Text);
-            order.pendingpayment=decimal.Parse(txtpendingpayment.Text);
+            order.fullpayment = decimal.Parse(txtfullpayment.Text);
+            order.advancepayment = decimal.Parse(txtadvancepayment.Text);
+            order.pendingpayment = decimal.Parse(txtpendingpayment.Text);
 
             int row = or.inserCustomerOrder(order);
             if (row > 0)
@@ -52,22 +64,12 @@ namespace TailorManagment.Forms
             else
             {
                 MessageBox.Show("not added order");
-                NewOrder1 nc=new NewOrder1(customerId);
+                NewOrder1 nc = new NewOrder1(customerId);
                 this.Controls.Clear();
                 this.Controls.Add(nc);
             }
-
         }
 
-        private void txtfullpayment_TextChanged(object sender, EventArgs e)
-        {
-            PendingPayment();
-        }
-
-        private void txtadvancepayment_TextChanged(object sender, EventArgs e)
-        {
-            PendingPayment();
-        }
 
         private void PendingPayment()
         {
@@ -86,13 +88,14 @@ namespace TailorManagment.Forms
             txtpendingpayment.Text = (fullpayment - advancepayment).ToString();
         }
 
-        private void NewOrder1_Load(object sender, EventArgs e)
+        private void txtfullpayment_TextChanged(object sender, EventArgs e)
         {
-            if(customerId > 0)
-            {
-                txtcustomerid.Text = customerId.ToString();
-            }
-            
+            PendingPayment();
+        }
+
+        private void txtadvancepayment_TextChanged(object sender, EventArgs e)
+        {
+            PendingPayment();
         }
     }
 }

@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace BEL
 {
+    //to carry all data related to order
     public class Order
     {
         public int customerid { get; set; }

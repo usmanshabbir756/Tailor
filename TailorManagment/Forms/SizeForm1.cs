@@ -33,28 +33,28 @@ namespace TailorManagment.Forms
             txtid.Text = customer.CustomerId.ToString();
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void guna2Button2_Click(object sender, EventArgs e)
         {
             size.customerId = customer.CustomerId;
             size.roundarms = txtroundarms.Text;
             size.roundneck = txtrundneck.Text;
-            size.Skirtlength=txtskirtlength.Text;
-            size.dresslength=txtdresslength.Text;
-            size.Halflenght=txthalflength.Text;
-            size.trouserlength=txtrouserlength.Text;
-            size.shoulder=txtshoulder.Text;
-            size.Thigh=txtthigh.Text;
-            size.sleeves=txtsleeves.Text;
-            size.Underbust=txtunderbust.Text;
-            size.Waist=txtwaist.Text;
-            size.wrist=txtwrist.Text;
+            size.Skirtlength = txtskirtlength.Text;
+            size.dresslength = txtdresslength.Text;
+            size.Halflenght = txthalflength.Text;
+            size.trouserlength = txtrouserlength.Text;
+            size.shoulder = txtshoulder.Text;
+            size.Thigh = txtthigh.Text;
+            size.sleeves = txtsleeves.Text;
+            size.Underbust = txtunderbust.Text;
+            size.Waist = txtwaist.Text;
+            size.wrist = txtwrist.Text;
 
-            int a=sizeOperations.inserCustomerSize(size);
-            if(a>0)
+            int a = sizeOperations.inserCustomerSize(size);
+            if (a > 0)
             {
                 MessageBox.Show("added size");
-                
-                NewOrder1 nc=new NewOrder1(size.customerId);
+
+                NewOrder1 nc = new NewOrder1(size.customerId);
                 this.Controls.Clear();
                 this.Controls.Add(nc);
             }
@@ -65,6 +65,10 @@ namespace TailorManagment.Forms
                 this.Controls.Clear();
                 this.Controls.Add(nc);
             }
+        }
+
+        private void guna2Button1_Click(object sender, EventArgs e)
+        {
 
         }
     }

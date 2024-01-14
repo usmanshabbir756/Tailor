@@ -34,7 +34,9 @@
             // 
             // Record
             // 
+            this.Record.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(242)))), ((int)(((byte)(252)))));
             this.Record.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.Record.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(104)))), ((int)(((byte)(144)))));
             this.Record.Location = new System.Drawing.Point(37, 13);
             this.Record.Name = "Record";
             this.Record.Size = new System.Drawing.Size(1300, 640);

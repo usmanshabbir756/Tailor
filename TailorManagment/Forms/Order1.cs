@@ -23,17 +23,25 @@ namespace TailorManagment.Forms
             InitializeComponent();
         }
 
-        private void button2_Click(object sender, EventArgs e)
+
+
+        private void guna2CheckBox1_CheckedChanged(object sender, EventArgs e)
+        {
+            txtadvancepayment.Text = txtfullpayment.Text;
+            txtpending.Text = "0";
+        }
+
+        private void guna2Button1_Click(object sender, EventArgs e)
         {
             txtcatagory.Text = string.Empty;
             txtorderdate.Text = string.Empty;
             txtdeliverydate.Text = string.Empty;
             txtfullpayment.Text = string.Empty;
-            txtadvancepayment.Text = string.Empty;  
+            txtadvancepayment.Text = string.Empty;
             txtpending.Text = string.Empty;
 
-            
-            
+
+
             int integer;
             Int32.TryParse(txtid.Text, out integer);
             int orderId = integer;
@@ -46,7 +54,7 @@ namespace TailorManagment.Forms
                 txtadvancepayment.Text = dt.Rows[0][5].ToString();
                 txtpending.Text = dt.Rows[0][6].ToString();
                 txtfullpayment.Text = dt.Rows[0][7].ToString();
-                
+
 
 
             }
@@ -56,15 +64,15 @@ namespace TailorManagment.Forms
             }
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void guna2Button3_Click(object sender, EventArgs e)
         {
             order.orderid = int.Parse(txtid.Text);
             order.category = txtcatagory.Text;
-            order.orderdate =DateTime.Parse(txtorderdate.Text);
-            order.delieverydate =DateTime.Parse(txtdeliverydate.Text);
-            order.fullpayment =decimal.Parse(txtfullpayment.Text);
-            order.advancepayment =decimal.Parse(txtadvancepayment.Text);
-            order.pendingpayment =decimal.Parse(txtpending.Text);
+            order.orderdate = DateTime.Parse(txtorderdate.Text);
+            order.delieverydate = DateTime.Parse(txtdeliverydate.Text);
+            order.fullpayment = decimal.Parse(txtfullpayment.Text);
+            order.advancepayment = decimal.Parse(txtadvancepayment.Text);
+            order.pendingpayment = decimal.Parse(txtpending.Text);
 
             int row = or.updateOrder(order);
             if (row > 0)
@@ -84,15 +92,9 @@ namespace TailorManagment.Forms
             }
         }
 
-        private void guna2CheckBox1_CheckedChanged(object sender, EventArgs e)
+        private void guna2Button2_Click(object sender, EventArgs e)
         {
-            txtadvancepayment.Text = txtfullpayment.Text;
-            txtpending.Text = "0";
-        }
-
-        private void button3_Click(object sender, EventArgs e)
-        {
-            int id =int.Parse(txtid.Text);
+            int id = int.Parse(txtid.Text);
 
             int row = or.deleteOrder(id);
 
@@ -111,7 +113,27 @@ namespace TailorManagment.Forms
                 this.Controls.Clear();
                 this.Controls.Add(nc);
             }
+        }
 
+        private void txtadvancepayment_TextChanged(object sender, EventArgs e)
+        {
+            PendingPayment();
+        }
+        private void PendingPayment()
+        {
+            decimal fullpayment = 0; decimal advancepayment = 0;
+            if (txtfullpayment.Text.Length > 0)
+            {
+                fullpayment = decimal.Parse(txtfullpayment.Text);
+            }
+            if (txtadvancepayment.Text.Length > 0)
+            {
+                advancepayment = decimal.Parse(txtadvancepayment.Text);
+            }
+
+
+
+            txtpending.Text = (fullpayment - advancepayment).ToString();
         }
     }
 }

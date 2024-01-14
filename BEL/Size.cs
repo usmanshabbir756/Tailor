@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace BEL
 {
+    //to carry all data related to size
     public class Size
     {
         public int customerId { get; set; }

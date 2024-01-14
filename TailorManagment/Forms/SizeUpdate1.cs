@@ -23,17 +23,17 @@ namespace TailorManagment.Forms
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void guna2Button3_Click(object sender, EventArgs e)
         {
             txtid.Text = null;
-            
+
             int integer;
             Int32.TryParse(txtidsearch.Text, out integer);
             int CustomerId = integer;
             dt = sc.GetIdByID(CustomerId);
             if (dt.Rows.Count > 0)
             {
-                
+
                 txtid.Text = dt.Rows[0][1].ToString();
                 txtshoulder.Text = dt.Rows[0][2].ToString();
                 txtwaist.Text = dt.Rows[0][3].ToString();
@@ -55,9 +55,9 @@ namespace TailorManagment.Forms
             }
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void guna2Button2_Click(object sender, EventArgs e)
         {
-            size.customerId =int.Parse(txtid.Text);
+            size.customerId = int.Parse(txtid.Text);
             size.shoulder = txtshoulder.Text;
             size.roundarms = txtroundarms.Text;
             size.roundneck = txtroundneck.Text;
@@ -89,7 +89,7 @@ namespace TailorManagment.Forms
             }
         }
 
-        private void button3_Click(object sender, EventArgs e)
+        private void guna2Button1_Click(object sender, EventArgs e)
         {
             size.customerId = int.Parse(txtid.Text);
 

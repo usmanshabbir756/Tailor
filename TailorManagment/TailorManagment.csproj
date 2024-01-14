@@ -65,6 +65,12 @@
     <Compile Include="Forms\Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\logo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\logo.Designer.cs">
+      <DependentUpon>logo.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\MenuForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -115,6 +121,9 @@
     <EmbeddedResource Include="Forms\Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\logo.resx">
+      <DependentUpon>logo.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\MenuForm.resx">
       <DependentUpon>MenuForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -144,6 +153,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
@@ -168,6 +178,24 @@
       <Project>{8f2392b1-0451-4652-8ee1-fdce602062e1}</Project>
       <Name>BEL</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resouces\Asset 4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resouces\new1.pcm" />
+    <None Include="resouces\TMS logo Transparent.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resouces\Asset 3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resouces\main.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Asset 4.png" />
+    <Content Include="resouces\aaa.mp3" />
+    <Content Include="resouces\maingif.gif" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

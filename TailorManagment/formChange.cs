@@ -24,7 +24,10 @@ namespace TailorManagment
 
         private void openForm()
         {
-            open.ShowDialog();
+            if (open != null)
+            {
+                open.ShowDialog();
+            }
         }
         
     }

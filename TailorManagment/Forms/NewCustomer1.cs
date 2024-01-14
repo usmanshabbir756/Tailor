@@ -25,6 +25,14 @@ namespace TailorManagment.Forms
         
         private void addCustomer_Click(object sender, EventArgs e)
         {
+            addCustomerDb();
+        }
+        private void addCustomer_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            addCustomerDb();
+        }
+        private void addCustomerDb()
+        {
             try
             {
 
@@ -50,6 +58,30 @@ namespace TailorManagment.Forms
             catch (Exception ex)
             {
                 MessageBox.Show(ex.Message);
+            }
+        }
+
+        private void txtphoneno_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar == (char)13)
+            {
+                txtemail.Focus();
+            }
+        }
+
+        private void txtname_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar == (char)13)
+            {
+                txtphoneno.Focus();
+            }
+        }
+
+        private void txtemail_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar == (char)13)
+            {
+                addCustomerDb();
             }
         }
     }
