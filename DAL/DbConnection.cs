@@ -13,7 +13,10 @@ namespace DAL
         //Making sqlconnection by adding
         //datasource  as server name
         //AttachDbFilename give database name from debug folder of application
-        public SqlConnection Conn = new SqlConnection("Data Source=(localdb)\\MSSQLLocalDB;AttachDbFilename=" + System.IO.Path.GetFullPath("TailorManagmentSystem.mdf")+";Integrated Security=True;");
+        public SqlConnection Conn = new SqlConnection("Data Source=(localdb)" +
+            "\\MSSQLLocalDB;AttachDbFilename="
+            + System.IO.Path.GetFullPath("TailorManagmentSystem.mdf")
+            +";Integrated Security=True;");
 
 
         //making getcon function to get db connection

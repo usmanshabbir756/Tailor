@@ -8,9 +8,12 @@ namespace BAL
 {
     public class Operations
     {
+        //db object to call DAL function
         public DbConnection db = new DbConnection();
+        //customer object to use customer attribute
         public Customer customer = new Customer();
 
+        //All record form for Record1.cs
         public DataTable GetAllRecord()
         {
             SqlCommand cmd = new SqlCommand("GetCustomerData");
@@ -18,6 +21,7 @@ namespace BAL
             return db.ExeReader(cmd);
         }
 
+        //insert customer use in NewCustomer1
         public int inserCustomer(Customer customer)
         {
 

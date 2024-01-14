@@ -24,9 +24,10 @@ namespace TailorManagment.Forms
         }
         public NewOrder1(int id)
         {
+            InitializeComponent();
             customerId = id;
             txtcustomerid.Text = customerId.ToString();
-            InitializeComponent();
+            
         }
        
 
@@ -44,29 +45,39 @@ namespace TailorManagment.Forms
 
         private void guna2Button3_Click(object sender, EventArgs e)
         {
-            order.customerid = int.Parse(txtcustomerid.Text);
-            order.category = txtcategory.Text;
-            order.orderdate = txtorderdate.Value;
-            order.delieverydate = txtdeliverydate.Value;
-            order.fullpayment = decimal.Parse(txtfullpayment.Text);
-            order.advancepayment = decimal.Parse(txtadvancepayment.Text);
-            order.pendingpayment = decimal.Parse(txtpendingpayment.Text);
-
-            int row = or.inserCustomerOrder(order);
-            if (row > 0)
+            try
             {
-                MessageBox.Show("added order");
+                if (txtcustomerid.Text.Length > 0)
+                {
+                    order.customerid = int.Parse(txtcustomerid.Text);
+                }
+                order.category = txtcategory.Text;
+                order.orderdate = txtorderdate.Value;
+                order.delieverydate = txtdeliverydate.Value;
+                order.fullpayment = decimal.Parse(txtfullpayment.Text);
+                order.advancepayment = decimal.Parse(txtadvancepayment.Text);
+                order.pendingpayment = decimal.Parse(txtpendingpayment.Text);
 
-                NewCustomer1 nc = new NewCustomer1();
-                this.Controls.Clear();
-                this.Controls.Add(nc);
+                int row = or.inserCustomerOrder(order);
+                if (row > 0)
+                {
+                    MessageBox.Show("added order");
+
+                    NewOrder1 nc = new NewOrder1();
+                    this.Controls.Clear();
+                    this.Controls.Add(nc);
+                }
+                else
+                {
+                    MessageBox.Show("not added order");
+                    NewOrder1 nc = new NewOrder1(customerId);
+                    this.Controls.Clear();
+                    this.Controls.Add(nc);
+                }
             }
-            else
+            catch(Exception ex)
             {
-                MessageBox.Show("not added order");
-                NewOrder1 nc = new NewOrder1(customerId);
-                this.Controls.Clear();
-                this.Controls.Add(nc);
+                MessageBox.Show(ex.Message);
             }
         }
 

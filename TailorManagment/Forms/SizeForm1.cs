@@ -19,6 +19,7 @@ namespace TailorManagment.Forms
         BEL.Size size=new BEL.Size();
         SizeOperations sizeOperations=new SizeOperations();
         DataTable dt= new DataTable();
+        int id=0;
 
         public SizeForm1(Customer customer)
         {
@@ -35,6 +36,7 @@ namespace TailorManagment.Forms
 
         private void guna2Button2_Click(object sender, EventArgs e)
         {
+            id= customer.CustomerId;
             size.customerId = customer.CustomerId;
             size.roundarms = txtroundarms.Text;
             size.roundneck = txtrundneck.Text;
@@ -54,7 +56,7 @@ namespace TailorManagment.Forms
             {
                 MessageBox.Show("added size");
 
-                NewOrder1 nc = new NewOrder1(size.customerId);
+                NewOrder1 nc = new NewOrder1(id);
                 this.Controls.Clear();
                 this.Controls.Add(nc);
             }
