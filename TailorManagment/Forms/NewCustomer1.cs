@@ -25,20 +25,20 @@ namespace TailorManagment.Forms
         
         private void addCustomer_Click(object sender, EventArgs e)
         {
-            addCustomerDb();
+            addCustomerDb(txtname.Text, txtphoneno.Text, txtemail.Text);
         }
         private void addCustomer_KeyPress(object sender, KeyPressEventArgs e)
         {
-            addCustomerDb();
+            addCustomerDb(txtname.Text,txtphoneno.Text,txtemail.Text);
         }
-        private void addCustomerDb()
+        public void addCustomerDb(string name,string number,string email)
         {
             try
             {
 
-                customer.name = txtname.Text;
-                customer.phoneNumber = txtphoneno.Text;
-                customer.email = txtemail.Text;
+                customer.name = name;
+                customer.phoneNumber = number;
+                customer.email = email;
                 int row = opr.inserCustomer(customer);
                 if (row > 0)
                 {
@@ -81,7 +81,7 @@ namespace TailorManagment.Forms
         {
             if (e.KeyChar == (char)13)
             {
-                addCustomerDb();
+                addCustomerDb(txtname.Text, txtphoneno.Text, txtemail.Text);
             }
         }
     }
