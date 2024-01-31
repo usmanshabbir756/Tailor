@@ -9,3 +9,73 @@ C:\Users\usman\Desktop\Tailor\Tailor\TailorManagment\obj\Debug\TailorManagment.c
 C:\Users\usman\Desktop\Tailor\Tailor\TailorManagment\obj\Debug\TailorManagment.exe
 C:\Users\usman\Desktop\Tailor\Tailor\TailorManagment\obj\Debug\TailorManagment.pdb
 C:\Users\usman\Desktop\Tailor\Tailor\TailorManagment\obj\Debug\TailorManagment.Forms.Menu.resources
+C:\Users\usman\Desktop\Tailor\Tailor\TailorManagment\bin\Debug\BAL.dll
+C:\Users\usman\Desktop\Tailor\Tailor\TailorManagment\bin\Debug\BEL.dll
+C:\Users\usman\Desktop\Tailor\Tailor\TailorManagment\bin\Debug\BAL.pdb
+C:\Users\usman\Desktop\Tailor\Tailor\TailorManagment\bin\Debug\BEL.pdb
+C:\Users\usman\Desktop\Tailor\Tailor\TailorManagment\obj\Debug\TailorManagment.csproj.CopyComplete
+C:\Users\usman\Desktop\Tailor\Tailor\TailorManagment\obj\Debug\TailorManagment.Forms.CustomerForm.resources
+C:\Users\usman\Desktop\Tailor\Tailor\TailorManagment\bin\Debug\DAL.dll
+C:\Users\usman\Desktop\Tailor\Tailor\TailorManagment\bin\Debug\DAL.pdb
+C:\Users\usman\Desktop\Tailor\Tailor\TailorManagment\obj\Debug\TailorManagment.Forms.SizeForm.resources
+C:\Users\usman\Desktop\Tailor\Tailor\TailorManagment\obj\Debug\TailorManagment.Forms.ExistingCustomer.resources
+C:\Users\usman\Desktop\Tailor\Tailor\TailorManagment\obj\Debug\TailorManagment.Forms.NewOrder.resources
+C:\Users\usman\Desktop\Tailor\Tailor\TailorManagment\obj\Debug\TailorManagment.Forms.Order.resources
+C:\Users\usman\Desktop\Tailor\Tailor\TailorManagment\obj\Debug\TailorManagment.Forms.Record.resources
+C:\Users\usman\Desktop\Tailor\Tailor\TailorManagment\obj\Debug\TailorManagment.Forms.SizeUpdate.resources
+F:\5th Semester\SCD\Project\TMS1\TailorManagment\bin\Debug\TailorManagment.exe.config
+F:\5th Semester\SCD\Project\TMS1\TailorManagment\bin\Debug\TailorManagment.exe
+F:\5th Semester\SCD\Project\TMS1\TailorManagment\bin\Debug\TailorManagment.pdb
+F:\5th Semester\SCD\Project\TMS1\TailorManagment\bin\Debug\BAL.dll
+F:\5th Semester\SCD\Project\TMS1\TailorManagment\bin\Debug\BEL.dll
+F:\5th Semester\SCD\Project\TMS1\TailorManagment\bin\Debug\DAL.dll
+F:\5th Semester\SCD\Project\TMS1\TailorManagment\bin\Debug\BAL.pdb
+F:\5th Semester\SCD\Project\TMS1\TailorManagment\bin\Debug\BEL.pdb
+F:\5th Semester\SCD\Project\TMS1\TailorManagment\bin\Debug\DAL.pdb
+F:\5th Semester\SCD\Project\TMS1\TailorManagment\obj\Debug\TailorManagment.csproj.AssemblyReference.cache
+F:\5th Semester\SCD\Project\TMS1\TailorManagment\obj\Debug\TailorManagment.Forms.CustomerForm.resources
+F:\5th Semester\SCD\Project\TMS1\TailorManagment\obj\Debug\TailorManagment.Forms.ExistingCustomer.resources
+F:\5th Semester\SCD\Project\TMS1\TailorManagment\obj\Debug\TailorManagment.Form1.resources
+F:\5th Semester\SCD\Project\TMS1\TailorManagment\obj\Debug\TailorManagment.Forms.Menu.resources
+F:\5th Semester\SCD\Project\TMS1\TailorManagment\obj\Debug\TailorManagment.Forms.NewOrder.resources
+F:\5th Semester\SCD\Project\TMS1\TailorManagment\obj\Debug\TailorManagment.Forms.Order.resources
+F:\5th Semester\SCD\Project\TMS1\TailorManagment\obj\Debug\TailorManagment.Forms.Record.resources
+F:\5th Semester\SCD\Project\TMS1\TailorManagment\obj\Debug\TailorManagment.Forms.SizeForm.resources
+F:\5th Semester\SCD\Project\TMS1\TailorManagment\obj\Debug\TailorManagment.Forms.SizeUpdate.resources
+F:\5th Semester\SCD\Project\TMS1\TailorManagment\obj\Debug\TailorManagment.Properties.Resources.resources
+F:\5th Semester\SCD\Project\TMS1\TailorManagment\obj\Debug\TailorManagment.csproj.GenerateResource.cache
+F:\5th Semester\SCD\Project\TMS1\TailorManagment\obj\Debug\TailorManagment.csproj.CoreCompileInputs.cache
+F:\5th Semester\SCD\Project\TMS1\TailorManagment\obj\Debug\TailorManagment.csproj.CopyComplete
+F:\5th Semester\SCD\Project\TMS1\TailorManagment\obj\Debug\TailorManagment.exe
+F:\5th Semester\SCD\Project\TMS1\TailorManagment\obj\Debug\TailorManagment.pdb
+F:\5th Semester\SCD\Project\TMS1\TailorManagment\bin\Debug\Guna.UI2.dll
+F:\5th Semester\SCD\Project\TMS1\TailorManagment\obj\Debug\TailorManagment.Forms.Menu1.resources
+F:\5th Semester\SCD\Project\TMS1\TailorManagment\obj\Debug\TailorManagment.Forms.MenuForm.resources
+F:\5th Semester\SCD\Project\TMS1\TailorManagment\obj\Debug\TailorManagment.Forms.NewCustomer1.resources
+C:\Users\usman\Source\Repos\Tailor\TailorManagment\bin\Debug\TailorManagment.exe.config
+C:\Users\usman\Source\Repos\Tailor\TailorManagment\bin\Debug\TailorManagment.exe
+C:\Users\usman\Source\Repos\Tailor\TailorManagment\bin\Debug\TailorManagment.pdb
+C:\Users\usman\Source\Repos\Tailor\TailorManagment\bin\Debug\BAL.dll
+C:\Users\usman\Source\Repos\Tailor\TailorManagment\bin\Debug\BEL.dll
+C:\Users\usman\Source\Repos\Tailor\TailorManagment\bin\Debug\Guna.UI2.dll
+C:\Users\usman\Source\Repos\Tailor\TailorManagment\bin\Debug\DAL.dll
+C:\Users\usman\Source\Repos\Tailor\TailorManagment\bin\Debug\BAL.pdb
+C:\Users\usman\Source\Repos\Tailor\TailorManagment\bin\Debug\BEL.pdb
+C:\Users\usman\Source\Repos\Tailor\TailorManagment\bin\Debug\DAL.pdb
+C:\Users\usman\Source\Repos\Tailor\TailorManagment\obj\Debug\TailorManagment.csproj.AssemblyReference.cache
+C:\Users\usman\Source\Repos\Tailor\TailorManagment\obj\Debug\TailorManagment.Forms.ExistingCustomer1.resources
+C:\Users\usman\Source\Repos\Tailor\TailorManagment\obj\Debug\TailorManagment.Form1.resources
+C:\Users\usman\Source\Repos\Tailor\TailorManagment\obj\Debug\TailorManagment.Forms.MenuForm.resources
+C:\Users\usman\Source\Repos\Tailor\TailorManagment\obj\Debug\TailorManagment.Forms.NewCustomer1.resources
+C:\Users\usman\Source\Repos\Tailor\TailorManagment\obj\Debug\TailorManagment.Forms.NewOrder1.resources
+C:\Users\usman\Source\Repos\Tailor\TailorManagment\obj\Debug\TailorManagment.Forms.Order1.resources
+C:\Users\usman\Source\Repos\Tailor\TailorManagment\obj\Debug\TailorManagment.Forms.Record1.resources
+C:\Users\usman\Source\Repos\Tailor\TailorManagment\obj\Debug\TailorManagment.Forms.SizeForm1.resources
+C:\Users\usman\Source\Repos\Tailor\TailorManagment\obj\Debug\TailorManagment.Forms.SizeUpdate1.resources
+C:\Users\usman\Source\Repos\Tailor\TailorManagment\obj\Debug\TailorManagment.Properties.Resources.resources
+C:\Users\usman\Source\Repos\Tailor\TailorManagment\obj\Debug\TailorManagment.csproj.GenerateResource.cache
+C:\Users\usman\Source\Repos\Tailor\TailorManagment\obj\Debug\TailorManagment.csproj.CoreCompileInputs.cache
+C:\Users\usman\Source\Repos\Tailor\TailorManagment\obj\Debug\TailorManagment.csproj.CopyComplete
+C:\Users\usman\Source\Repos\Tailor\TailorManagment\obj\Debug\TailorManagment.exe
+C:\Users\usman\Source\Repos\Tailor\TailorManagment\obj\Debug\TailorManagment.pdb
+C:\Users\usman\source\repos\Tailor\TailorManagment\obj\Debug\TailorManagment.Forms.logo.resources

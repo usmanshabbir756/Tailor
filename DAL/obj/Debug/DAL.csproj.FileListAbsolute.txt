@@ -1,0 +1,18 @@
+C:\Users\usman\Desktop\Tailor\Tailor\DAL\bin\Debug\DAL.dll
+C:\Users\usman\Desktop\Tailor\Tailor\DAL\bin\Debug\DAL.pdb
+C:\Users\usman\Desktop\Tailor\Tailor\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+C:\Users\usman\Desktop\Tailor\Tailor\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\usman\Desktop\Tailor\Tailor\DAL\obj\Debug\DAL.dll
+C:\Users\usman\Desktop\Tailor\Tailor\DAL\obj\Debug\DAL.pdb
+F:\5th Semester\SCD\Project\TMS1\DAL\bin\Debug\DAL.dll
+F:\5th Semester\SCD\Project\TMS1\DAL\bin\Debug\DAL.pdb
+F:\5th Semester\SCD\Project\TMS1\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+F:\5th Semester\SCD\Project\TMS1\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+F:\5th Semester\SCD\Project\TMS1\DAL\obj\Debug\DAL.dll
+F:\5th Semester\SCD\Project\TMS1\DAL\obj\Debug\DAL.pdb
+C:\Users\usman\Source\Repos\Tailor\DAL\bin\Debug\DAL.dll
+C:\Users\usman\Source\Repos\Tailor\DAL\bin\Debug\DAL.pdb
+C:\Users\usman\Source\Repos\Tailor\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+C:\Users\usman\Source\Repos\Tailor\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\usman\Source\Repos\Tailor\DAL\obj\Debug\DAL.dll
+C:\Users\usman\Source\Repos\Tailor\DAL\obj\Debug\DAL.pdb
