@@ -43,7 +43,7 @@ namespace TestTailor
 
             // Act
             DataTable result = or.GetIdByNamePhoneNo(sampleCustomer);
-            //Assert.IsTrue(DataTableComaparer.AreEqual(expectedDataTable, result));
+            Assert.IsTrue(DataTableComaparer.AreEqual(expectedDataTable, result));
 
             // Assert the result
             Assert.IsNotNull(result);

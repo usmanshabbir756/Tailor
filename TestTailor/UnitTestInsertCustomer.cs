@@ -27,15 +27,6 @@ namespace TestTailor
                 email = "text99@example.com"
             };
 
-            // Create a sample SqlCommand (you might need to adjust this based on your actual implementation)
-            SqlCommand expectedCommand = new SqlCommand("InsertCustomer")
-            {
-                CommandType = CommandType.StoredProcedure
-            };
-            expectedCommand.Parameters.Add("@cust_name", SqlDbType.VarChar, 255).Value = sampleCustomer.name;
-            expectedCommand.Parameters.Add("@phone_number", SqlDbType.VarChar, 20).Value = sampleCustomer.phoneNumber;
-            expectedCommand.Parameters.Add("@email", SqlDbType.VarChar, 255).Value = sampleCustomer.email;
-
             // Act
             int result =or.inserCustomer(sampleCustomer);
 
