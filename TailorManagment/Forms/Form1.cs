@@ -22,11 +22,11 @@ namespace TailorManagment
 
         private void authenticate()
         {
-            if (txtusername.Text == "UsmanShabbir" && txtpassword.Text == "Usman")
+            if (txtusername.Text == "laibasahar" && txtpassword.Text == "Usman")
             {
                 new formChange(this, new MenuForm());
             }
-            else if (txtusername.Text == "UsmanShabbir")
+            else if (txtusername.Text == "laibasahar")
             {
                 loginerror.Text = "Enter Wrong Password";
             }

@@ -8,9 +8,19 @@ namespace BAL
 {
     public class Operations
     {
-        public DbConnection db = new DbConnection();
+        //db object to call DAL function
+        public DbConnection db;
+        //customer object to use customer attribute
         public Customer customer = new Customer();
+        public Operations() { 
+            this.db = new DbConnection();
+        }
 
+        public Operations(string s)
+        {
+            this.db=new DbConnection(s);
+        }
+        //All record form for Record1.cs
         public DataTable GetAllRecord()
         {
             SqlCommand cmd = new SqlCommand("GetCustomerData");
@@ -18,16 +28,16 @@ namespace BAL
             return db.ExeReader(cmd);
         }
 
+        //insert customer use in NewCustomer1
         public int inserCustomer(Customer customer)
         {
-
-            SqlCommand cmd = new SqlCommand("InsertCustomer");
-            cmd.CommandType = CommandType.StoredProcedure;
-            //parameter
-            cmd.Parameters.Add("@cust_name", SqlDbType.VarChar, 255).Value = customer.name;
-            cmd.Parameters.Add("@phone_number", SqlDbType.VarChar, 20).Value = customer.phoneNumber;
-            cmd.Parameters.Add("@email", SqlDbType.VarChar, 255).Value = customer.email;
-            return db.ExeNonQuery(cmd);
+                SqlCommand cmd = new SqlCommand("InsertCustomer");
+                cmd.CommandType = CommandType.StoredProcedure;
+                //parameter
+                cmd.Parameters.Add("@cust_name", SqlDbType.VarChar, 255).Value = customer.name;
+                cmd.Parameters.Add("@phone_number", SqlDbType.VarChar, 20).Value = customer.phoneNumber;
+                cmd.Parameters.Add("@email", SqlDbType.VarChar, 255).Value = customer.email;
+                return db.ExeNonQuery(cmd);
         }
         public DataTable GetIdByNamePhoneNo(Customer customer)
         {

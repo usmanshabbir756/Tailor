@@ -20,14 +20,14 @@ F:\5th Semester\SCD\Project\TMS1\BAL\obj\Debug\BAL.csproj.CoreCompileInputs.cach
 F:\5th Semester\SCD\Project\TMS1\BAL\obj\Debug\BAL.csproj.CopyComplete
 F:\5th Semester\SCD\Project\TMS1\BAL\obj\Debug\BAL.dll
 F:\5th Semester\SCD\Project\TMS1\BAL\obj\Debug\BAL.pdb
-C:\Users\usman\Source\Repos\Tailor\BAL\bin\Debug\BAL.dll
-C:\Users\usman\Source\Repos\Tailor\BAL\bin\Debug\BAL.pdb
-C:\Users\usman\Source\Repos\Tailor\BAL\bin\Debug\BEL.dll
-C:\Users\usman\Source\Repos\Tailor\BAL\bin\Debug\DAL.dll
-C:\Users\usman\Source\Repos\Tailor\BAL\bin\Debug\BEL.pdb
-C:\Users\usman\Source\Repos\Tailor\BAL\bin\Debug\DAL.pdb
-C:\Users\usman\Source\Repos\Tailor\BAL\obj\Debug\BAL.csproj.AssemblyReference.cache
-C:\Users\usman\Source\Repos\Tailor\BAL\obj\Debug\BAL.csproj.CoreCompileInputs.cache
-C:\Users\usman\Source\Repos\Tailor\BAL\obj\Debug\BAL.csproj.CopyComplete
-C:\Users\usman\Source\Repos\Tailor\BAL\obj\Debug\BAL.dll
-C:\Users\usman\Source\Repos\Tailor\BAL\obj\Debug\BAL.pdb
+C:\Users\usman\source\repos\Tailor\BAL\bin\Debug\BAL.dll
+C:\Users\usman\source\repos\Tailor\BAL\bin\Debug\BAL.pdb
+C:\Users\usman\source\repos\Tailor\BAL\bin\Debug\BEL.dll
+C:\Users\usman\source\repos\Tailor\BAL\bin\Debug\DAL.dll
+C:\Users\usman\source\repos\Tailor\BAL\bin\Debug\BEL.pdb
+C:\Users\usman\source\repos\Tailor\BAL\bin\Debug\DAL.pdb
+C:\Users\usman\source\repos\Tailor\BAL\obj\Debug\BAL.csproj.AssemblyReference.cache
+C:\Users\usman\source\repos\Tailor\BAL\obj\Debug\BAL.csproj.CoreCompileInputs.cache
+C:\Users\usman\source\repos\Tailor\BAL\obj\Debug\BAL.csproj.CopyComplete
+C:\Users\usman\source\repos\Tailor\BAL\obj\Debug\BAL.dll
+C:\Users\usman\source\repos\Tailor\BAL\obj\Debug\BAL.pdb

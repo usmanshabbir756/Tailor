@@ -17,7 +17,7 @@ namespace TailorManagment
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new logo());
+            Application.Run(new MenuForm());
         }
     }
 }

@@ -263,9 +263,9 @@
             this.label8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(242)))), ((int)(((byte)(252)))));
             this.label8.Location = new System.Drawing.Point(269, 67);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(211, 45);
+            this.label8.Size = new System.Drawing.Size(151, 45);
             this.label8.TabIndex = 109;
-            this.label8.Text = "Customer ID";
+            this.label8.Text = "Order ID";
             // 
             // txtdeliverydate
             // 

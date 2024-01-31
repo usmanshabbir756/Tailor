@@ -38,7 +38,6 @@ namespace BAL
 
         public int inserCustomerOrder(Order order)
         {
-
             SqlCommand cmd = new SqlCommand("InsertOrder");
             cmd.CommandType = CommandType.StoredProcedure;
             //parameter
@@ -49,7 +48,6 @@ namespace BAL
             cmd.Parameters.Add("@full_payment", SqlDbType.Decimal).Value = order.fullpayment;
             cmd.Parameters.Add("@pending", SqlDbType.Decimal).Value = order.pendingpayment;
             cmd.Parameters.Add("@advance_payment", SqlDbType.Decimal).Value = order.advancepayment;
-
             return db.ExeNonQuery(cmd);
         }
 

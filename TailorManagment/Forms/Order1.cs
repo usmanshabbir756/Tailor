@@ -79,14 +79,14 @@ namespace TailorManagment.Forms
             {
                 MessageBox.Show("Updated");
 
-                ExistingCustomer1 nc = new ExistingCustomer1();
+                Order1 nc = new Order1();
                 this.Controls.Clear();
                 this.Controls.Add(nc);
             }
             else
             {
                 MessageBox.Show("not Updated");
-                ExistingCustomer1 nc = new ExistingCustomer1();
+                Order1 nc = new Order1();
                 this.Controls.Clear();
                 this.Controls.Add(nc);
             }
