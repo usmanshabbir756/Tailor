@@ -15,9 +15,9 @@ namespace TestTailor
         {
             // Arrange
             // Create a mock database connection
-            String s = "Data Source=Usman_Shabbir;Initial Catalog=TailorManagmentSystem;Integrated Security=True";
+            //String s = "Data Source=Usman_Shabbir;Initial Catalog=TailorManagmentSystem;Integrated Security=True";
             // Create an instance of the class containing the GetAllRecord method
-            Operations or = new Operations(s);
+            Operations or = new Operations();
 
             // Create a sample customer
             Customer sampleCustomer = new Customer
