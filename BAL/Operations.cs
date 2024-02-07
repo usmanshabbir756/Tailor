@@ -4,8 +4,13 @@ using DAL;
 using BEL;
 using System;
 
+
+
 namespace BAL
 {
+    /// <summary>
+    /// 
+    /// </summary>
     public class Operations
     {
         //db object to call DAL function
@@ -16,11 +21,16 @@ namespace BAL
             this.db = new DbConnection();
         }
 
+
         public Operations(string s)
         {
             this.db=new DbConnection(s);
         }
         //All record form for Record1.cs
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <returns></returns>
         public DataTable GetAllRecord()
         {
             SqlCommand cmd = new SqlCommand("GetCustomerData");
@@ -29,6 +39,11 @@ namespace BAL
         }
 
         //insert customer use in NewCustomer1
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="customer"></param>
+        /// <returns></returns>
         public int inserCustomer(Customer customer)
         {
                 SqlCommand cmd = new SqlCommand("InsertCustomer");
